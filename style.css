@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.task_cointainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.task {
+    border: 1px solid black;
+    width: 500px;
+    padding: 2rem;
+    background-color: white;
+
+}
+
+.task_div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.input {
+    width: 200px;
+}
+
+.input2 {
+    height: 100px;
+}
+
+.span {
+    padding-right: 100px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.task_list {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+
+.task_list_cointainer {
+    border: 1px solid black;
+    width: 500px;
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+
+}
+.task_div_style {
+    display: grid;
+    justify-content: center;
+    gap: 3rem;
+    border: 1px solid black;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    padding: 2rem;
+} 
+
+#task_cointainer_list{
+    display: none;
+
+} 
+
+.task_div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
+.allcontainer {
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+
+.div_item {
+    border: 1px solid black;
+    width: 500px;
+    background-color: white;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+
+}
+
+
+.div_items_cointainer {
+    display: grid;
+    justify-content: center;
+    padding-top: 2rem;
+    text-align: center;
+}
